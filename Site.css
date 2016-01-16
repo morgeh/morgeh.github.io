@@ -172,7 +172,7 @@ aside{
     background-color: transparent;
     float: left;
     height: 46px;
-    margin-top: 35%;
+    top: calc(50% - 23px);
     position: absolute;
     width: 25px;
     z-index: 10;
@@ -187,5 +187,8 @@ aside{
 
 .slick-arrow.slick-next {
     right: 15px;
-    top: 0;
+}
+
+.slick-slide{
+    cursor: pointer;
 }
