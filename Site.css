@@ -1,0 +1,191 @@
+﻿body {
+    background-color: #161616;
+    color: white;
+}
+
+header {
+    width: 1024px;
+    margin: 10px auto;
+    height: 170px;
+    font-family: "Trebuchet MS",sans-serif;
+}
+
+    header .HeaderLeft {
+        width: 362px;
+        display: inline-block;
+        float: left;
+    }
+
+        header .HeaderLeft .social a {
+            background-image: url("/assets/socialnetworks.png");
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+        }
+
+            header .HeaderLeft .social a.facebook {
+                background-position: -153px -27px;
+            }
+
+            header .HeaderLeft .social a.twitter {
+                background-position: -33px -27px;
+            }
+
+    header .HeaderRight {
+        display: inline-block;
+        float: right;
+        text-align: right;
+        width: 362px;
+    }
+
+        header .HeaderRight a {
+            color: white;
+            text-decoration: none;
+        }
+
+            header .HeaderRight a[href^="tel:"]:before {
+                content: "\260E";
+                display: inline-block;
+                margin-right: 0.5em;
+            }
+
+        header .HeaderRight strong {
+            display: block;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+            header .HeaderRight strong.tel {
+                display: inline-block;
+            }
+
+    header .Logo {
+        width: 300px;
+        height: 170px;
+        float: left;
+    }
+
+    header h1 {
+        background-image: url("/assets/logo5.png");
+        width: 300px;
+        height: 170px;
+        display: inline-block;
+        text-indent: -9999px;
+        margin: 0;
+        padding: 0;
+    }
+
+main {
+    border: 2px solid #2e2e2e;
+    margin: 10px auto;
+    min-height: 1000px;
+    width: 976px;
+    z-index: 1;
+}
+
+    main .borderTopper {
+        background-color: #161616;
+        background-image: url("/assets/border white.png");
+        display: block;
+        height: 326px;
+        left: -25px;
+        position: relative;
+        top: -10px;
+        width: 1024px;
+        z-index: 2;
+    }
+
+    main .content {
+        display: inline-block;
+        font-family: "Trebuchet MS",sans-serif;
+        font-size: 12px;
+        left: 60px;
+        margin-bottom: -250px;
+        position: relative;
+        top: -250px;
+        width: 860px;
+        z-index: 3;
+    }
+
+        main .content .intro {
+            font-size: 18px;
+            margin: 0 auto 60px;
+            width: 612px;
+            font-family: 'Sofia', cursive;
+        }
+
+            main .content .intro a {
+                color: white;
+                display: inline-block;
+                font-family: "Trebuchet MS",sans-serif;
+            }
+
+section {
+    float: left;
+    width: 526px;
+}
+
+    section .method {
+        border-bottom: 1px solid white;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+        section .method h3 {
+            display: inline-block;
+            text-indent: -9999px;
+            margin: 0;
+            padding: 0;
+            width: 528px;
+            height: 196px;
+        }
+
+            section .method h3.microfusionbonds {
+                background-image: url("/assets/microfusionbonds.png");
+            }
+
+            section .method h3.microrings {
+                background-image: url("/assets/microrings.png");
+            }
+
+            section .method h3.shrinkies {
+                background-image: url("/assets/shrinkies.png");
+            }
+
+            section .method h3.nanorings {
+                background-image: url("/assets/nanorings.png");
+            }
+
+        section .method p {
+            font-size: 14px;
+        }
+
+aside{
+    float: left;
+    width: 260px;
+    margin-left: 70px;
+    margin-right: 4px;
+}
+
+.slick-arrow {
+    background-image: url("/assets/arrows.png");
+    background-color: transparent;
+    float: left;
+    height: 46px;
+    margin-top: 35%;
+    position: absolute;
+    width: 25px;
+    z-index: 10;
+    border: none;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.slick-arrow.slick-prev{
+    background-position: 25px 0;
+}
+
+.slick-arrow.slick-next {
+    right: 15px;
+    top: 0;
+}

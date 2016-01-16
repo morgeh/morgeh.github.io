@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="Site.css" type="text/css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
+    <link rel="stylesheet" type="text/css" href="http://mreq.github.io/slick-lightbox/dist/slick-lightbox.css">
+    <title>Strand By Strand Hair Extensions - 45 Belvoir Street Leicester City Centre</title>
+</head>
+<body>
+    <header>
+        <div class="HeaderLeft">
+            <!--<a href="home.html">Portfolio</a>
+            <a href="contact.html">Contact</a>-->
+            <div class="social">
+                <a class="facebook" href="https://www.facebook.com/Strand-By-Strand-Hair-Extensions-1084513288247729"></a>
+                <a class="twitter"></a>
+            </div>
+        </div>
+        <div class="Logo">
+            <h1>Strand By Strand</h1>
+        </div>
+        <div class="HeaderRight">
+            <a href="https://maps.here.com/directions/drive/mylocation/Strand-By-Strand-Hair-Extensions:52.632631,-1.132119?map=52.63263,-1.13212,12,normal&fb_locale=en_GB&x=ep">
+                <strong>45 Belvoir Street</strong>
+                <strong>Leiscester City Centre</strong>
+                <strong>LE1 6SL</strong>
+            </a>
+            <a href="tel://07849890764"><strong class="tel">07849890764</strong></a>
+        </div>
+    </header>
+    <main>
+        <div class="borderTopper"></div>
+        <div class="content">
+            <div class="intro">
+                <p>
+                    Luxurious hair extensions fitted individually by a fully qualified hair extension specialist! Four different methods to choose from and a large selection of colours for the perfect colour match!
+                </p>
+                <p>Call Kerry for any enquiries or to book for your consultation! <a href="tel://07849890764"><strong class="tel">07849890764</strong></a></p>
+            </div>
+            <section>
+                <div class="method">
+                    <h3 class="microfusionbonds">
+                        Micro Fusion Bonds
+                    </h3>
+                    <p>A classic reliable method.</p>
+                    <p>U Tip hair is used for this method. It is one of the most popular methods with up to 60% of the market using this technique. It is suitable for all hair types. Hair that is pre-bonded is used for this method as it doesn't shed.</p>
+                    <p>Micro fusion is a hot system that does not damage the natural hair. It can last up to 3 - 4 months depending on how well they are maintained.</p>
+                    <p>This method creates a freefall natural effect great for finer weak hair.</p>
+                </div>
+                <div class="method">
+                    <h3 class="microrings">Micro Rings</h3>
+                    <p>Micro rings are made from metal (copper/aluminium).</p>
+                    <p>This method should not be used on metal allergy sufferers.</p>
+                    <p>Micro rings use no glue, heat or adhesives, they are a completely cold system. They should last about 3 - 4 months if maintained well.</p>
+                    <p>Micro rings can be repositioned/pushed up every 4 - 6 weeks depending on hair growth providing a ver cost effective hair extension method.</p>
+                    <p>Micro rings are great for hot climates because they remain secure and strong.</p>
+                </div>
+                <div class="method">
+                    <h3 class="shrinkies">Shrinkies</h3>
+                    <p>Shrinkies are small shrink wrap tubes. They are a cross between fusion bonds and micro rings.</p>
+                    <p>Shrinkies are extremely light weight and gentle. Superb for thin hair.</p>
+                    <p>They are heat activated so not suitable for holidays.</p>
+                    <p>They should last up to 3 months if maintained well. This method will suit everyone.</p>
+                </div>
+                <div class="method">
+                    <h3 class="nanorings">Nano Rings</h3>
+                    <p>Nano rings are made from copper/aluminium. It is the newest method on the market.</p>
+                    <p>It is virtually undetectable and is the smallest hair extension on the market, the size of a pen nib!</p>
+                    <p>They last for 3 - 4 months if maintained well. Highly comfortable against the scalp and whilst sleeping unlike other bulkier methods.</p>
+                    <p>Very gentle and non-damaging to the natural hair Nano rings are currently worn by 90% of UK Celebrities.</p>
+                </div>
+            </section>
+            <aside>
+                <div class="carousel">
+                    <div><img src="assets/carousel1.png" data-lightbox-src="assets/full1.png" data-lightbox-caption="Before and after 18&quot; Micro Fusion Bonds" alt="18&quot; Micro Fusion Bonds" /></div>
+                    <div><img src="assets/carousel2.png" data-lightbox-src="assets/full2.png" data-lightbox-caption="Before and after 22&quot; Micro Fusion Bonds" alt="22&quot; Micro Fusion Bonds" /></div>
+                    <div><img src="assets/carousel3.png" data-lightbox-src="assets/full3.png" data-lightbox-caption="Before and after 16&quot; Nano Rings" alt="16&quot; Nano Rings" /></div>
+                    <div><img src="assets/carousel4.png" data-lightbox-src="assets/full4.png" data-lightbox-caption="Before and after 20&quot; Easy Shrinks" alt="20&quot; Easy Shrinks" /></div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+    <script type="text/javascript" src="http://mreq.github.io/slick-lightbox/dist/slick-lightbox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                vertical: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: false
+            });
+            $('.carousel').slickLightbox({
+                src: 'data-lightbox-src',
+                caption: 'lightbox-caption',
+                itemSelector: 'div img'
+            });
+        });
+    </script>
+</body>
+</html>
