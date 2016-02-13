@@ -156,6 +156,11 @@ section {
                 background-image: url("/assets/nanorings.png");
             }
 
+            section .method h3.sttropez{
+                background-image: url("/assets/sttropez.jpeg");
+                height: 315px;
+            }
+
         section .method p {
             font-size: 14px;
         }
